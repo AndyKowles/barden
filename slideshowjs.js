@@ -1,5 +1,4 @@
-// Array containing URLs of images
-
+// javascript for a simple slide show webpage/UI
 
 // Function to display images sequentially
 function sequentialSlideshow() {
@@ -7,10 +6,10 @@ function sequentialSlideshow() {
 
     function displayNextImage() {
         const images = document.querySelectorAll('.clickable-image');
-        document.querySelectorAll('#slideshow img').forEach(img => img.style.display = 'none');
-        document.getElementById('image' + index).style.display = 'block';
+        images.forEach(img => img.style.display = 'none');
+        images[index].style.display = 'block';
         index = (index + 1) % images.length;
-        setTimeout(displayNextImage, 2000); // Change image every 2 seconds (2000 milliseconds)
+        setTimeout(displayNextImage, 3000); // Change image every 3 seconds (3000 milliseconds)
     }
 
     displayNextImage();
