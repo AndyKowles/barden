@@ -18,8 +18,8 @@
         .image-container {
             position: absolute;
             top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+            left: 10%;
+            transform: translate(-20%,-20%);
             display: flex;
             gap: 20px;
         }
@@ -28,10 +28,13 @@
             border: 2px solid white;
             border-radius: 10px;
             transition: transform 0.2s;
+            display: none;
         }
-        .clickable-image:hover {
-            transform: scale(1.1);
+
+        .clickable-image.active {
+            display: block; /* Show images when active */
         }
+
         h1, h2, h4, h5, h6 {
 		    color: gold;
         }

@@ -1,10 +1,5 @@
 // Array containing URLs of images
-const images = [
-    "IMG_9927.jpg",
-    "IMG_9917.jpg",
-    "98192170-D387-45D9-8976-AD1F1F07488A.JPG"
-    // Add more image URLs as needed
-];
+
 
 // Function to display images sequentially
 function sequentialSlideshow() {
