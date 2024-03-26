@@ -1,4 +1,7 @@
-// javascript for a simple slide show webpage/UI
+// Last Major Updates: March 2024 by Andy Kowles
+// javascript for a simple slide show webpage/UI for Jesse Barden's memorial.
+// The cool thing about this code is it's independent from the content itself.
+// Feel free to reuse this code.
 
 // Function to display images sequentially
 function sequentialSlideshow() {
