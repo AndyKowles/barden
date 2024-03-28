@@ -3,6 +3,14 @@
 // The cool thing about this code is it's independent from the content itself.
 // Feel free to reuse this code.
 
+function openSlideshow() {
+    // URL of the slideshow page
+    var slideshowUrl = 'slideshow.html';
+
+    // Open a new tab with the slideshow
+    window.open(slideshowUrl, '_blank');
+}
+
 // Function to display images sequentially
 function sequentialSlideshow() {
     let index = 0;
